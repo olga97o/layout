@@ -1,0 +1,204 @@
+@import "fonts.css";
+/*css variables*/
+@import "variables/_var.css";
+/*global variables*/
+@import "variables/_global.css";
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 5rem;
+}
+.header_area .main-menu .nav-item .nav-link {
+  font: lighter 500 15px/2px var(--oswald);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--hover-color);
+  display: flex;
+}
+.header_area .main-menu .navbar-nav a:hover {
+  color: var(--primary-color1);
+}
+
+.site-main {
+  background: url("../img/bg.png") no-repeat transparent 50% 0;
+  color: var(--title-color);
+}
+
+.site-main .site-banner {
+  background: rgba(255, 255, 255, 0.9);
+}
+.site-main .site-banner .site-title {
+  padding-top: 5%;
+}
+.site-main .site-banner .site-title h3 {
+  padding: 0.2rem 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  background: var(--primary-color1);
+  width: 10rem;
+  margin: auto;
+}
+.site-main .site-banner .site-title h1 {
+  text-align: center;
+  border: 8px solid var(--title-color);
+  width: 50%;
+  margin: auto;
+  font-size: 5rem;
+}
+.site-main .site-banner .site-title p {
+  text-align: center;
+  width: 52%;
+  margin: 1rem auto;
+}
+
+.site-main .about-area {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 6rem;
+}
+.site-main .about-area .about-title {
+  padding: 1.5rem;
+}
+.site-main .about-area .about-title h1 span.green-text {
+  background: linear-gradient(to bottom, transparent 50%, var(--primary-color1) 50%);
+}
+
+.site-main .services-area {
+  padding: 3rem;
+}
+.site-main .services-area .services-title h1 > span.green-text {
+  background: linear-gradient(to bottom, transparent 50%, var(--primary-color1) 50%);
+}
+.site-main .services-area .services-title p {
+  padding: 0 7rem;
+  margin-bottom: 2rem;
+}
+.site-main .services-area .services-list-item {
+  margin-right: 8rem;
+}
+.site-main .services-area .services-list-item .services {
+  text-align: left;
+  width: 20rem;
+  padding: 1rem;
+}
+.site-main .services-area .services-list-item .services .services-icon > a {
+  color: var(--text-color);
+}
+.site-main .services-area .services-list-item .services .card-body {
+  padding-left: 0;
+}
+.site-main .services-area .services-list-item .services .card-body h5 {
+  text-align: left;
+}
+.site-main .services-area .services-list-item .services .card-body .card-list {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+  color: var(--text-color);
+}
+.site-main .services-area .services-image > img {
+  padding: 0 4rem;
+}
+
+.site-main .portfolio-area {
+  padding: 4rem 0;
+}
+.site-main .portfolio-area .portfolio-title h1 > span.green-text {
+  background: linear-gradient(to bottom, transparent 50%, var(--primary-color1) 50%);
+}
+.site-main .portfolio-area .portfolio-title p {
+  padding: 0 7rem;
+  margin-bottom: 4rem;
+}
+.site-main .portfolio-area .button-area .button-group {
+  list-style-type: none;
+  margin: 2rem 0;
+  padding-left: 0;
+}
+.site-main .portfolio-area .button-area .button-group li {
+  margin-bottom: 1rem;
+}
+.site-main .portfolio-area .button-area .button-group li a {
+  padding: 0 2rem;
+  text-transform: uppercase;
+  font: normal bold 20px var(--oswald);
+}
+.site-main .portfolio-area .button-area .button-group li a.active {
+  padding: 0 1rem;
+  background: var(--primary-color1);
+  color: whitesmoke;
+  text-decoration: none;
+}
+.site-main .portfolio-area .button-area .button-group li a:hover {
+  cursor: pointer;
+}
+.site-main .portfolio-area .portfolio-column .portfolio-element-item {
+  margin: 2rem;
+}
+.site-main .portfolio-area .portfolio-column .our-portfolio .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.site-main .news-area .news {
+  background: var(--primary-color1);
+  padding: 3rem 0;
+  margin: 2rem auto;
+}
+.site-main .news-area .news .work-area {
+  padding: 1.5rem;
+  margin: 0 3rem;
+  color: var(--text-color2);
+}
+.site-main .news-area .news .work-area button {
+  width: fit-content;
+  margin: 1rem;
+}
+.site-main .news-area .news .work-area button:hover {
+  background: var(--primary-color1);
+  border: 1px solid var(--title-color);
+}
+.site-main .news-area .news .subscribe-area {
+  background: whitesmoke;
+  padding: 1.5rem;
+  margin: 0 3rem;
+}
+.site-main .news-area .news .subscribe-area .subscribe-title h4 {
+  font: normal 700 30px/30px var(--oswald);
+  color: var(--title-color);
+}
+.site-main .news-area .news .subscribe-area .subscribe-title p {
+  color: var(--title-color);
+  padding: 1rem 0;
+}
+.site-main .news-area .news .subscribe-area form {
+  padding: 0 1.5rem;
+  width: max-content;
+}
+.site-main .news-area .news .subscribe-area form input {
+  width: 350px;
+  padding: 1rem;
+  border: 1px solid var(--text-color);
+  background: transparent;
+  color: var(--title-color);
+  font: normal 500 17px/20px var(--oswald);
+  border-radius: 0;
+}
+.site-main .news-area .news .subscribe-area form input::placeholder {
+  color: var(--title-color);
+  text-transform: uppercase;
+}
+.site-main .news-area .news .subscribe-area form button {
+  padding: 0.8rem 3rem;
+  width: fit-content;
+}
+
+footer.footer-area {
+  padding: 3rem 0;
+}
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--text-color);
+}
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color1);
+}
+
+/*# sourceMappingURL=style.css.map */

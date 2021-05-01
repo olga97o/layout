@@ -1,0 +1,42 @@
+@import "_var.css";
+
+
+.title-text {
+    font: normal bold 40px var(--oswald);
+    color: var(--title-color);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.button {
+    padding: .8rem 2.2rem;
+    font: normal 500 var(--oswald);
+    position: relative;
+    border: none;
+}
+
+.button.primary-button {
+    color: whitesmoke;
+    background: var(--primary-color1);
+}
+
+.button.secondary-button {
+    color: var(--primary-color1);
+    background: var(--text-color2);
+}
+.button:hover {
+    color: black;
+    background: var(--text-color2);
+    border: 1px solid var(--primary-color1);
+}
+
+
+p.para {
+    color: var(--title-color);
+    font: normal 500 20px var(--oswald);
+}
+
+
+

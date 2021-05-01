@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/*css variables*/
+:root {
+    --primary-color1: #7BEEC7;
+    --title-color: #60606E;
+    --text-color: #999999;
+    --text-color2: #F7FEFB;
+    --hover-color: #9A9A9A;
+
+    /*font-family variables*/
+    --oswald: 'Oswald', regular;
+}
